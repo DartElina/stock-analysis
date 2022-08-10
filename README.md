@@ -10,13 +10,15 @@ To reduce runtimes, I’ve designated a variable index that will be used to run 
 
 
 ## Results
-The program created produces an output sheet with the ticker names, volumes, and returns by year requested. The sheet is formatted so that we can quickly see if the returns are positive (green) or negative (red). I have added a timer to measure code efficiency as well. The original code ran in approximately .75secs and new refactored codes run in approximately .18 secs.  
+The program created produces an output sheet with the ticker names, volumes, and returns by year requested. The sheet is formatted so that we can quickly see if the returns are positive (green) or negative (red). 
+![IMAGE] Initial Run Time 2017.png
+I have added a timer to measure code efficiency as well. The original code ran in approximately .75secs and new refactored codes run in approximately .18 secs.  
 
 The resulting code quartered the time needed to run program on 3013 lines of data. This means as Steve’s data set grows, he will be able to continue to run the program efficiently. Additionally, as he runs the program on subsequent years the program will continue to operate since variables are being used throughout for use on new datasets. 
 
 ## Summary
 ### 1.	What are the advantages and disadvantages of refactoring code in general?
-An advantage of refactoring code is to make code more efficient by running a program using fewer steps or better logic. It may be difficult, or tricky, to simplify the code and keep your new logic straight. 
+An advantage of refactoring code is to make code more efficient, or cleaner with better logic. It may be difficult, and time consuming though, so a programmer may introduce new bugs that need to be fixed.
 ### 2.	What are the advantages and disadvantages of the original and refactored code in this program?
-I struggled with keeping my index variables straight as I added subsequent for loops. My first pass through the program was easier for me to understand, meaning the code I created during the module, but the program took considerably longer to run. The advantages of refactoring are more efficient programs that run faster, and a clearer logic in the program. But I think I need more time to get the hang of this language!
+I struggled with keeping my index variables straight as I added subsequent for loops. A disadvantage of refactoring code is I could have created new bugs that caused the code to break. My first pass through the program was easier for me to understand, meaning the code I created during the module, but the program took considerably longer to run. The advantages of refactoring are more efficient programs that run faster, and a clearer logic in the program. But I think I need more time to get the hang of this language to avoid creating new bugs!
 
