@@ -10,9 +10,17 @@ To reduce runtimes, I’ve designated a variable index that will be used to run 
 
 
 ## Results
+![image](formatted_output_sheet_2017.png)
+![image](Formatted_Output_Sheet_2018.png)
+
 The program created produces an output sheet with the ticker names, volumes, and returns by year requested. The sheet is formatted so that we can quickly see if the returns are positive (green) or negative (red). 
-![IMAGE] Initial Run Time 2017.png
-I have added a timer to measure code efficiency as well. The original code ran in approximately .75secs and new refactored codes run in approximately .18 secs.  
+
+![image](https://github.com/DartElina/stock-analysis/blob/312a0a18f9526e15b06507472253d1b3d76c3a83/Initial%20Run%20Time%202017.png) 
+![image](VBA_Challenge_2017.png) 
+![image](https://github.com/DartElina/stock-analysis/blob/312a0a18f9526e15b06507472253d1b3d76c3a83/Initial%20Run%20Time%202018.png)
+![image](VBA_Challenge_2018.png)
+
+I have added a timer to measure code efficiency as well. The original code ran in the 2017 and 2018 datasets for approximately .73 secs and new refactored codes ran in approximately .18 secs give or take fractions of a second depending on the year.  
 
 The resulting code quartered the time needed to run program on 3013 lines of data. This means as Steve’s data set grows, he will be able to continue to run the program efficiently. Additionally, as he runs the program on subsequent years the program will continue to operate since variables are being used throughout for use on new datasets. 
 
